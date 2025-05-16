@@ -56,7 +56,7 @@ On that I will work later.]
 	}
 }
 \renewcommand{\subsection}[1]{%
-	\vspace{4pt}%
+	\vspace{2pt}%
 	\tcbox[colback=blue!10!white, colframe=blue!40!black,
 	       boxrule=0.8pt, sharp corners, left=2pt, right=2pt,
 	       top=2pt, bottom=2pt, width= \linewidth, 
@@ -66,7 +66,7 @@ On that I will work later.]
 }
 \renewcommand{\subsubsection}[1]{%
 	\vspace{2pt}%
-	\tcbox[colback=red!15!white, colframe=gray!40,
+	\tcbox[colback=yellow!10!white,colframe=red!75!black,,
 	       boxrule=0.5pt, sharp corners, left=2pt, right=2pt,
 	       top=1pt, bottom=1pt, width= \linewidth]{%
 		\bfseries #1%
